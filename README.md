@@ -1,5 +1,5 @@
 # MacOSWinUSBCreator
-Shell script to create a UEFI-only (as of 0.1) Windows USB drive on macOS
+Shell script to create a UEFI-only (as of 0.1) Windows USB drive on macOS. If you want to do this process on Linux, use [WoeUSB](https://github.com/WoeUSB/WoeUSB-ng) instead.
 
 ## Prerequisites
 - A Windows 8 or later 64-bit ISO file, downloaded from Microsoft
