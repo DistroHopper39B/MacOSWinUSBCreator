@@ -3,7 +3,7 @@ Shell script to create a UEFI-only (as of 0.1) Windows USB drive on macOS. If yo
 
 ## Prerequisites
 - A Windows 8 or later 64-bit ISO file, downloaded from Microsoft
-- A Mac with Internet access that you have administrator priviliges on
+- A Mac (running Mac OS X 10.6 or later) with Internet access that you have administrator priviliges on
 - An 8+ GB USB flash drive. **NOTE THAT IT ABSOLUTELY WILL BE WIPED DURING THIS PROCESS!**
 
 ## Usage
