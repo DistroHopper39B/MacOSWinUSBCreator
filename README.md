@@ -9,9 +9,9 @@ Shell script to create a UEFI-only (as of 0.1) Windows USB drive on macOS. If yo
 ## Usage
 - Download and run the script. The easiest way to do this (which also circumvents Apple's notarization BS) is through the Terminal by typing:
 ```
-curl -O https://raw.githubusercontent.com/DistroHopper39B/MacOSWinUSBCreator/main/MacOSWinUSBCreator.sh # Downloads the script
-chmod +x MacOSWinUSBCreator.sh # Allows the Terminal to execute the script
-./MacOSWinUSBCreator.sh # Runs the script
+curl -O https://raw.githubusercontent.com/DistroHopper39B/MacOSWinUSBCreator/main/MacOSWinUSBCreator.sh
+chmod +x MacOSWinUSBCreator.sh
+./MacOSWinUSBCreator.sh
 ```
 - Follow the instructions.
 - On the target computer, **disable Secure Boot** if enabled. This is due to the UEFI:NTFS ExFAT UEFI drivers (used in this script) not being Secure Boot-signed by Microsoft, and macOS not being able to write to NTFS partitions. Secure Boot can be re-enabled once the first stage of installation is complete.
